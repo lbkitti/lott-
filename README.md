@@ -1,1 +1,1 @@
-# lott-
+# lotto
