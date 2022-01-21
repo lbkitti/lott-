@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+  <html lang="hu">
+  <head>
+    <title>Lottó</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="lottó.css">
+    <style>
+      table, th, td, tr {
+         border: 1px solid black;
+         border-collapse: collapse;
+    }
+   </style>
+  </head>
+<style>
+    .div_1 {height: 300px;  width: 100%;
+                 margin:0 ; padding: 0;
+                 border: 0;
+                 text-align: center;
+                 background-image: url("lottó.jpg");
+                 background-size: 40%;
+                 background-repeat: no-repeat;
+                 background-position: center;
+                 background-color: white;}        
+</style>     
+<body>            
+         <div class="div_1"></div>
+    <h1>Lottószámaid:</h1>
+  <div class="submit">
+  <button onclick="generate(5, 1, 90);">Generate</button>
+  </div>
+  <div id="numbers"></div>
+  <script type="text/javascript" src="lottó.js"></script>
+  <h2>A heti lottószámok: <i>21 49 53 59 79</i></h2>
+  <nav>
+    <li><a href="lottó.html">Lottószámaid</a></li>
+        <li><a href="történelme.html">Történelme</a></li>
+        <li><a href="vásárlási helyek.html">Vásárlási helyek</a></li>
+  </nav>
+
+<table style="background-color: white; ">
+  <tr style="background-color: black; color: white;">
+    <th>Találat</th>
+    <th>Darabszám</th>
+    <th>Nyeremény(Ft)</th>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>1</td>
+    <td>3 348 134 835</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>43</td>
+    <td>1 410 950</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>3 451</td>
+    <td>18 935</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>92 100</td>
+    <td>1 985</td>
+  </tr>
+</table>
+
+
+<p style="text-align: left;"><u>Következő sorsolás:</u> 2022.01.22. 18:45-19:40 Duna</p>
+<p style="text-align: left;"><u>Várható főnyeremény:</u> 200 millió Ft</p>
+<p style="text-align: left;"><u>A 2022. 2. heti joker számok:</u> 7 9 5 2 3 4</p>
+
+<footer>
+  <p>Csapat tagjai: Halmágyi Borbála, Lábos Kitti 10d</p>
+</footer>
+</body>
+</html>

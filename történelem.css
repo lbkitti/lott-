@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightblue;
+    font-size: 16px;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+footer{
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+    color: black;
+}
+nav{
+    float:right;
+    width: 10%;
+    height: 50px;
+    background: white;
+    padding: 20px;
+    text-align: left;
+}
+footer{
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+    color: black;
+}
